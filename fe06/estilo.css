@@ -1,0 +1,82 @@
+/* Etapa 4: Fundo e tipografia */
+body {
+    background-color: #f8f5f0;
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    padding: 24px;
+    line-height: 1.6;
+}
+
+/* Etapa 5: Título e menu */
+h1 {
+    color: #0d9488;
+    text-align: center;
+}
+
+nav {
+    background-color: #0f172a;
+    padding: 15px;
+    display: flex;
+    gap: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Etapa 6: Espaçamento e tabela */
+p {
+    margin-bottom: 16px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #d6d3d1;
+    margin: 24px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #0d9488;
+    color: white;
+    text-align: left;
+    padding: 12px;
+}
+
+td {
+    text-align: left;
+    padding: 12px;
+}
+
+/* Etapa 7: Formulário em cartão */
+form {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 420px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Etapa 8: Botão estilizado */
+button {
+    background-color: #0d9488;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+/* Etapa 9: Acabamento dos títulos */
+h2 {
+    color: #0d9488;
+    margin-top: 32px;
+}
